@@ -1,29 +1,24 @@
-# Rent Calculator
-<sub># This is a simple and efficient Python script designed to automate the process of splitting household expenses among roommates.</sub>
+Rent Calculator
+A professional, command-line interface (CLI) tool developed in Python to streamline the process of splitting household expenses among roommates. This script automates the calculation of shared costs, including rent, food, and electricity billing, ensuring a fair and transparent distribution of expenses.
 
-<sub># This tool takes the guesswork out of monthly calculations by consolidating rent, food, and utility costs into a single, easy-to-read breakdown.</sub>
-
-<sub># The program is written in Python and uses basic arithmetic logic to ensure a fair and accurate distribution of payments for everyone in a shared living space.</sub>
-
-# Features
-<sub># # Custom Occupancy: Calculates shares based on any number of persons in a single room.</sub>
-
-<sub># # Integrated Utility Billing: Specifically calculates electricity costs by multiplying units spent by the charge per unit.</sub>
-
-<sub># # Food Expense Tracking: Includes a dedicated input for shared snacking or food orders.</sub>
-
-<sub># # Instant Calculation: Provides both the grand total for the room and the individual amount due per person.</sub>
-
+# Core Features
+# Multi-Occupancy Support: Dynamically calculates cost-sharing based on the total number of residents in a single room.
+# Utility Billing Logic: Automatically computes total electricity costs by multiplying unit consumption by the specific charge per unit.
+# Consolidated Expense Tracking: Aggregates rent, snacking/food orders, and utility bills into a single total amount.
+# Per-Person Breakdown: Provides an instant calculation of the exact amount due from each individual.
 # Calculation Logic
-<sub># # Step 1: Calculate total electricity cost by multiplying units by charge per unit.</sub>
+The application follows a structured mathematical flow to ensure accuracy:
 
-<sub># # Step 2: Sum the Rent, Food, and Electricity cost for the Total Amount.</sub>
-
-<sub># # Step 3: Divide the Total Amount by the number of persons for the Individual Share.</sub>
-
-# How to Run
-<sub># # 1. Ensure you have Python installed on your system.</sub>
-
-<sub># # 2. Download or clone the rent_calculator.py file.</sub>
-
-<sub># # 3. Run the script using the following command in your terminal: python rent_calculator.py</sub>
+# Electricity Cost: (Electricity Units Spent) × (Charge Per Unit)
+# Grand Total: (Rent) + (Food/Snacks) + (Total Electricity Cost)
+# Individual Share: (Grand Total) / (Number of Persons)
+# Installation & Usage
+# 1. Prerequisites: Ensure Python 3.x is installed on your local machine.
+# 2. Deployment: Clone or download the rent_calculator.py file to your directory.
+# 3. Execution: Run the script via the terminal using the following command:
+# python rent_calculator.py
+# 4. Operation: Enter the requested values at the prompts to receive the final cost breakdown.
+# Technical Details
+# Language: Python
+# Input Handling: Standard CLI input() with integer conversion.
+# Dependencies: None (Uses Python Standard Library).
