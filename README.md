@@ -1,41 +1,41 @@
-Rent Calculator
+**Rent Calculator**
 
 A professional command-line tool developed in Python to streamline the process of splitting household expenses among roommates. This script automates the calculation of shared costs, including rent, food, and electricity billing, ensuring a fair and transparent distribution of expenses.
 
-Core Features
+**Core Features**
 
-Multi-Occupancy Support: Dynamically calculates cost-sharing based on the total number of residents in a single room.
+**Multi-Occupancy Support**: Dynamically calculates cost-sharing based on the total number of residents in a single room.
 
-Utility Billing Logic: Automatically computes total electricity costs by multiplying unit consumption by the specific charge per unit.
+**Utility Billing Logic**: Automatically computes total electricity costs by multiplying unit consumption by the specific charge per unit.
 
-Consolidated Expense Tracking: Aggregates rent, snacking, food orders, and utility bills into a single total amount.
+**Consolidated Expense Tracking**: Aggregates rent, snacking, food orders, and utility bills into a single total amount.
 
-Per-Person Breakdown: Provides an instant calculation of the exact amount due from each individual.
+**Per-Person Breakdown**: Provides an instant calculation of the exact amount due from each individual.
 
-Calculation Logic
+**Calculation Logic**
 
 The application follows a structured mathematical flow to ensure accuracy:
 
-Electricity Cost: (Electricity Units Spent) times (Charge Per Unit)
+**Electricity Cost**: (Electricity Units Spent) times (Charge Per Unit)
 
-Grand Total: (Rent) + (Food/Snacks) + (Total Electricity Cost)
+**Grand Total**: (Rent) + (Food/Snacks) + (Total Electricity Cost)
 
-Individual Share: (Grand Total) divided by (Number of Persons)
+**Individual Share**: (Grand Total) divided by (Number of Persons)
 
-Installation and Usage
+**Installation and Usage**
 
-Prerequisites: Ensure Python 3.x is installed on your local machine.
+**Prerequisites**: Ensure Python 3.x is installed on your local machine.
 
-Deployment: Clone or download the rent_calculator.py file to your directory.
+**Deployment**: Clone or download the rent_calculator.py file to your directory.
 
-Execution: Run the script via the terminal using the command: python rent_calculator.py
+**Execution**: Run the script via the terminal using the command: python rent_calculator.py
 
-Operation: Enter the requested values at the prompts to receive the final cost breakdown.
+**Operation**: Enter the requested values at the prompts to receive the final cost breakdown.
 
-Technical Details
+**Technical Details**
 
-Language: Python
+**Language**: Python
 
-Input Handling: Standard CLI input with integer conversion.
+**Input Handling**: Standard CLI input with integer conversion.
 
-Dependencies: None (Uses Python Standard Library).
+**Dependencies**: None (Uses Python Standard Library).
